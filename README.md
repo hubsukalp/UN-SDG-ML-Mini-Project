@@ -42,10 +42,16 @@ This project successfully trained and validated three separate ML models to answ
 ## 💻 How to Run This Project
 
 1.  **Environment:** This project is designed to be run in a **Google Colab** environment, as it includes steps for mounting Google Drive.
-2.  **Data:** Upload the `Raw Dataset_UN_SDG.csv` to your Google Drive and update the file path in **Part 2** of the notebook.
-3.  **Run Notebook:** Run the cells in the `Source_Code.ipynb` notebook sequentially from top to bottom.
+
+2.  **Get the Data:**
+    * The raw dataset (`Raw Dataset_UN_SDG.csv`) is **not included** in this repository due to its large size (over 25MB).
+    * You must download the raw dataset from its original source.
+    * Upload `Raw Dataset_UN_SDG.csv` to your personal Google Drive.
+
+3.  **Update Path:** Open the `Source_Code.ipynb` notebook and update the file path in **Part 2** to point to the file's location in your Google Drive.
+
+4.  **Run Notebook:** Run the cells in the notebook sequentially from top to bottom.
     * **Part 1-6** will clean the data.
     * **Part 7-9** will run the **Regression** analysis.
     * **Part 10-11** will run the **Clustering** analysis.
-    * **Part 12** will run the **Classification** analysis.
-    * **Part 13** contains the final project conclusion.
+    * **Part 12-13** will run the **Classification** analysis and show the final conclusion.
