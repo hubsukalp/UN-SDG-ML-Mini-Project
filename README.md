@@ -28,7 +28,8 @@ This project successfully trained and validated three separate ML models to answ
 
 ---
 
-## 📁 Project FDetails `Source_Code.ipynb`: The main Jupyter/Colab notebook with all Python code for cleaning, analysis, and modeling.
+## 📁 Project Files
+* `Source_Code.ipynb`: The main Jupyter/Colab notebook with all Python code for cleaning, analysis, and modeling.
 * `Raw Dataset_UN_SDG.csv`: The original, untouched dataset.
 * `Cleaned_Preprocessed_Dataset_UN_SDG.csv`: The processed dataset used for all ML models.
 * `22070521118_ML_EDA_Report.pdf`: The initial Exploratory Data Analysis (EDA) report.
